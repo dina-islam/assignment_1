@@ -131,3 +131,53 @@ width: 474px;
 height: 400px;
 margin: 0px 50px;
 }
+
+
+
+ /* Plan Section  */
+.pillar {
+    padding-top: 10px;
+    padding-bottom: 32px;
+    text-align: left;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-bottom: 32px;
+    padding-left: 136px;
+}
+
+.pillar-container {
+    display: flex;
+    gap: 24px;
+    padding: 0 150px;
+}
+
+.pillar-card{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 24px;
+}
+
+.pillar-img {
+    padding-bottom: 10px;
+    align-items: flex-start;
+}
+
+.pillar-title {
+    color: #151414;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 16px;
+    justify-content: flex-start;
+}
+
+.pillar-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 500;
+}
