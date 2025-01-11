@@ -134,7 +134,7 @@ margin: 0px 50px;
 
 
 
- /* Plan Section  */
+ /* Pillar Section  */
 .pillar {
     padding-top: 10px;
     padding-bottom: 32px;
@@ -180,4 +180,108 @@ margin: 0px 50px;
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     font-weight: 500;
+}
+
+/* vision Section  */
+.pillar {
+    padding-top: 10px;
+    padding-bottom: 32px;
+    text-align: left;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-bottom: 32px;
+    padding-left: 136px;
+}
+
+.section-para{
+    padding-left: 136px;
+    padding-right: 136px;
+}
+
+.vision-container {
+    display: flex;
+    gap: 24px;
+    padding: 0 150px;
+}
+
+.vision-card_1{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 24px;
+}
+
+.vision-card_2{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 24px;
+}
+
+.vision-card_3{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding: 24px;
+}
+
+.vision-img {
+    padding-bottom: 10px;
+    align-items: flex-start;
+}
+
+.vision-title {
+    color: #151414;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 16px;
+    justify-content: flex-start;
+}
+
+.vision-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn_3{
+    color: white;
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    padding: 11px 20px 11px 20px;
+    border: none;
+}
+
+.btn_4{
+    color: white;
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    border: none;
+}
+
+.btn_5{
+    color: white;
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    padding: 11px 20px 11px 20px;
+    border: none;
+}
+
+.recent_container{
+    display: flex;
+    gap: 24px;
+    padding: 0 150px;
 }
