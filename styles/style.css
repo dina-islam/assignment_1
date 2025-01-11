@@ -280,8 +280,33 @@ margin: 0px 50px;
     border: none;
 }
 
+.recent{
+}
 .recent_container{
     display: flex;
     gap: 24px;
-    padding: 0 150px;
+    padding: 0 136px;
+    border-radius: 24px;
+    background: rgb(245, 243, 243);
+}
+
+.date-time{
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+}
+
+.btn-6{
+    color: white;
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+}
+
+.recent.img{
+    margin: 10px 32px;
+    border-radius: 24px;
+    background: url(image);
 }
