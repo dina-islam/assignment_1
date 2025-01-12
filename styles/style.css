@@ -183,21 +183,21 @@ margin: 0px 50px;
 }
 
 /* vision Section  */
-.pillar {
+.vision {
     padding-top: 10px;
     padding-bottom: 32px;
     text-align: left;
 }
 
-.section-title {
-    font-weight: 700;
-    font-size: 40px;
-    color: #151414;
-    padding-bottom: 32px;
-    padding-left: 136px;
-}
+/* .vision-title { */
+    /* font-weight: 700; */
+    /* font-size: 40px; */
+    /* color: #151414; */
+    /* padding-bottom: 32px; */
+    /* padding-left: 136px; */
+/* } */
 
-.section-para{
+.vision-para {
     padding-left: 136px;
     padding-right: 136px;
 }
@@ -205,10 +205,10 @@ margin: 0px 50px;
 .vision-container {
     display: flex;
     gap: 24px;
-    padding: 0 150px;
+    padding: 0 136px;
 }
 
-.vision-card_1{
+.vision-card_1 {
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
@@ -216,7 +216,7 @@ margin: 0px 50px;
     padding: 24px;
 }
 
-.vision-card_2{
+.vision-card_2 {
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
@@ -224,7 +224,7 @@ margin: 0px 50px;
     padding: 24px;
 }
 
-.vision-card_3{
+.vision-card_3 {
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
@@ -233,7 +233,7 @@ margin: 0px 50px;
 }
 
 .vision-img {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     align-items: flex-start;
 }
 
@@ -279,17 +279,28 @@ margin: 0px 50px;
     padding: 11px 20px 11px 20px;
     border: none;
 }
-
+ 
+/* recent new */
 .recent{
 }
 .recent_container{
     display: flex;
+    flex-direction: row;
     gap: 24px;
+    margin-left: 136px;
+    margin-right: 136px;
     padding: 0 136px;
     border-radius: 24px;
     background: rgb(245, 243, 243);
 }
 
+.text{font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    position: static;
+    width: 444px;
+    
+}
 .date-time{
     display: flex;
     gap: 12px;
@@ -306,7 +317,130 @@ margin: 0px 50px;
 }
 
 .recent.img{
-    margin: 10px 32px;
+
+    margin: 10px 20px;
     border-radius: 24px;
-    background: url(image);
+    
+}
+.donate{
+    background-color: rgb(245, 227, 241);
+    border-radius: 24px;
+    margin-left: 136px;
+    margin-right: 136px;
+    padding: 30px 150px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.donate-title{
+    font-size: 40px;
+    align-items: center;
+}
+.donate-taka{
+   display: flex;
+   justify-content: space-around;
+    
+}
+.taka-amount{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 40px;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.taka-amount-2{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 40px;
+    background: rgb(198, 228, 214);
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.section-discription{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    
+}
+
+.other-amount{
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.3);
+    border: none;
+    width: 607px;
+    height:34px;
+    text-align: center;
+}
+
+.btn-7{
+    color: white;
+    width: 122px;
+    height: 41px;
+    border-radius: 16px;
+    background: rgb(0, 106, 80);
+    border: none;
+    margin: 32px 0px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+}
+    /* sub */
+.subsceibe{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+.sub-color{
+    border-radius: 0px 8px 8px 0px;
+color: white;
+background: rgb(0, 106, 80);
+}
+/* footer */
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 23;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    
+}
+
+
+.footer-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 32;
+}
+
+.yunus{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    
+    background: rgb(255, 255, 255);
+    margin-left: 136px;
+    margin-right: 136px;
+    padding-left: 10px;
+}
+.img-back{
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img)
+    
 }
